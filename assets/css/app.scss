@@ -13,6 +13,9 @@ body {
   color: $black;
 
   font-family: $typography, Arial;
+  font-weight: 300;
+  line-height: 1.5;
+
   max-width: 780px;
   margin: 80px auto;
 }
@@ -74,5 +77,21 @@ div.circle {
   width: 500px;
   height: 500px;
   background-color: $red;
-  border-radius: 50%
+  border-radius: 50%;
+}
+
+div.post {
+  h3 {
+      margin-top: 80px;
+      line-height: 1;
+  }
+
+  p {
+    max-width: 540px;
+    margin-bottom: 40px;
+  }
+
+  img {
+    max-width: 780px;
+  }
 }
